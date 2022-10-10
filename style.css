@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body > img{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(3px);
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container #image {
+    margin-top: 2em;
+}
+
+.container #image > img{
+    display: grid;
+    position: relative;
+    width: 20em;
+    height: 10em;
+}
+
+img {
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    border: 3px solid aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 1em;
+}
+
+.container section {
+    width: 30rem;
+    margin: 3rem auto;
+}
+
+.container section input {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2em;
+    border-style: hidden;
+}
+
+.input-field{
+    text-align: center;
+}
+
+.icons {
+    position: absolute;
+    min-width: 40px;
+    padding: 10px;
+}
+
+input[type="password"] {
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 1em 7em;
+    color: rgb(18, 62, 101);
+    background-color: rgb(203, 231, 230);
+    border-style: hidden;
+    border-radius: 2em;
+    margin-left: 10em;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+section[class="seperator"]{
+    display: flex;
+}
+
+.line {
+    flex: 1;
+    border: hidden;
+    width: 40%;
+}
+
+.line:last-of-type{
+    float: right;
+}
+
+.seperator #or{
+    font-size: 1.5em;
+    color: rgb(52, 189, 197);
+}
+
+#icon a{
+    display: inline-block;
+    padding-left: 2em;
+    color: rgb(52, 189, 197);
+}
+
+#icon a:first-of-type{
+    padding-left: 9em;
+}
+
+#icon a:hover{
+    color: aquamarine;
+    transform: translate(2px, 2px);
+    transition: all 0.5s ease;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    margin-top: 1em;
+    padding-bottom: 2em;
+}
+
+footer a{
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
